@@ -51,7 +51,7 @@ A modern, responsive admin dashboard built with React, Material-UI, and Vite. Th
         </td>
     </tr>
     <tr>
-        <td align="center">Geography</td>
+        <td align="center">Geographic Visualization</td>
         <td align="center">Form Validation</td>
     </tr>
     <tr>
