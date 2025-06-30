@@ -6,7 +6,6 @@ import {
 import {
     createTheme
 } from "@mui/material/styles";
-import Typography from "@mui/material/Typography";
 
 export const tokens = (mode) => ({
     ...(mode === 'dark'
@@ -200,12 +199,12 @@ export const themeSettings = (mode) => {
 
 // Context for color mode
 export const ColorModeContext = createContext({
-    toggleColorMode: () => {},
+    toggleColorMode: () => { },
 })
 
 export const useMode = () => {
     const [mode, setMode] = useState("dark");
-    
+
     const colorMode = useMemo(
         () => ({
             toggleColorMode: () =>
