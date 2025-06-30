@@ -147,6 +147,27 @@ const SidebarComponent = () => {
                             selected={selected}
                             setSelected={setSelected}
                         />
+                        <Item
+                            title="Profile Form"
+                            to="/form"
+                            icon={<PersonOutlinedIcon />}
+                            selected={selected}
+                            setSelected={setSelected}
+                        />
+                        <Item
+                            title="Calendar"
+                            to="/calendar"
+                            icon={<CalendarTodayOutlinedIcon />}
+                            selected={selected}
+                            setSelected={setSelected}
+                        />
+                        <Item
+                            title="FAQ Page"
+                            to="/faq"
+                            icon={<HelpOutlineOutlinedIcon />}
+                            selected={selected}
+                            setSelected={setSelected}
+                        />
                     </Box>
                 </Menu>
             </Sidebar>
