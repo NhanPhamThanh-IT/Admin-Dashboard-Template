@@ -37,10 +37,32 @@ A modern, responsive admin dashboard built with React, Material-UI, and Vite. Th
 - **Geographic Visualization** - World map with data overlays
 - **Form Validation** - Robust form handling with Formik and Yup
 
-<img src="./resources/calendar.jpg" width="50%">
-<img src="./resources/faq.jpg" width="50%">
-<img src="./resources/geo.jpg" width="50%">
-<img src="./resources/form.jpg" width="50%">
+<table>
+    <tr>
+        <td align="center">Calendar Integration</td>
+        <td align="center">FAQ Section</td>
+    </tr>
+    <tr>
+        <td align="center">
+            <img src="./resources/calendar.jpg">
+        </td>
+        <td align="center">
+            <img src="./resources/faq.jpg">
+        </td>
+    </tr>
+    <tr>
+        <td align="center">Geography</td>
+        <td align="center">Form Validation</td>
+    </tr>
+    <tr>
+        <td align="center">
+            <img src="./resources/geo.jpg">
+        </td>
+        <td align="center">
+            <img src="./resources/form.jpg">
+        </td>
+    </tr>
+</table>
 
 ## 🛠️ Technologies Used
 
@@ -93,16 +115,19 @@ A modern, responsive admin dashboard built with React, Material-UI, and Vite. Th
    git clone <repository-url>
    cd Admin-Dashboard
    ```
+
 2. **Install dependencies**
 
    ```bash
    npm install
    ```
+
 3. **Start the development server**
 
    ```bash
    npm run dev
    ```
+
 4. **Open your browser**
    Navigate to `http://localhost:5173` to view the application
 
@@ -140,6 +165,33 @@ A modern, responsive admin dashboard built with React, Material-UI, and Vite. Th
 - **Line Charts**: Track trends over time
 - **Pie Charts**: View data distribution
 - **Geography**: Visualize data on world maps
+
+<table>
+    <tr>
+        <td align="center">Bar Charts</td>
+        <td align="center">Line Charts</td>
+    </tr>
+    <tr>
+        <td align="center">
+            <img src="./resources/bar.jpg">
+        </td>
+        <td align="center">
+            <img src="./resources/line.jpg">
+        </td>
+    </tr>
+    <tr>
+        <td align="center">Pie Charts</td>
+        <td align="center">Geography</td>
+    </tr>
+    <tr>
+        <td align="center">
+            <img src="./resources/pie.jpg">
+        </td>
+        <td align="center">
+            <img src="./resources/geo.jpg">
+        </td>
+    </tr>
+</table>
 
 ## 📁 Project Structure
 
